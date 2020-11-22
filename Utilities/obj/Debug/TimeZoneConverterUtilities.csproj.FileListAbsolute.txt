@@ -1,0 +1,9 @@
+D:\Code\TimeZoneConverter\Utilities\bin\Debug\Utilities.dll
+D:\Code\TimeZoneConverter\Utilities\bin\Debug\Utilities.pdb
+D:\Code\TimeZoneConverter\Utilities\bin\Debug\Dapper.dll
+D:\Code\TimeZoneConverter\Utilities\bin\Debug\Dapper.xml
+D:\Code\TimeZoneConverter\Utilities\obj\Debug\TimeZoneConverterUtilities.csproj.CoreCompileInputs.cache
+D:\Code\TimeZoneConverter\Utilities\obj\Debug\TimeZoneConverterUtilities.csproj.CopyComplete
+D:\Code\TimeZoneConverter\Utilities\obj\Debug\Utilities.dll
+D:\Code\TimeZoneConverter\Utilities\obj\Debug\Utilities.pdb
+D:\Code\TimeZoneConverter\Utilities\obj\Debug\TimeZoneConverterUtilities.csprojAssemblyReference.cache
