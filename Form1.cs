@@ -5,7 +5,6 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using TimeZoneConvertUtilities;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace TimeZoneConverter
 {
@@ -130,12 +129,11 @@ namespace TimeZoneConverter
               .Append(Environment.NewLine)
               .Append(localTime);
 
-            string text = sb.ToString();
             ConversionResultBox.Text = sb.ToString();
             AutoSizeTextBox(ConversionResultBox);
         }
 
-        private void AutoSizeTextBox(System.Windows.Forms.TextBox txt)
+        private void AutoSizeTextBox(TextBox txt)
         {
             const int x_margin = 0;
             const int y_margin = 2;
