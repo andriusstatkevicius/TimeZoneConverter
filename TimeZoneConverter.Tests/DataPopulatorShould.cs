@@ -15,8 +15,7 @@ namespace TimeZoneConverter.Tests
         {
             DataPopulator dataPopulator = new DataPopulator();
 
-            if (!dataPopulator.IsPopulated())
-                await dataPopulator.EnsureDataPopulationAsync();
+            await dataPopulator.EnsureDataPopulationAsync();
 
             Assert.Equal(dataPopulator.IanaToWindows[ianaTimeZone], expectedWindowsTimeZone);
         }
@@ -37,8 +36,7 @@ namespace TimeZoneConverter.Tests
         {
             DataPopulator dataPopulator = new DataPopulator();
 
-            if (!dataPopulator.IsPopulated())
-                await dataPopulator.EnsureDataPopulationAsync();
+            await dataPopulator.EnsureDataPopulationAsync();
 
             bool containsSameNumberOfIanaTimeZones = dataPopulator.WindowsToIana[testInput.WindowsTimeZoneId].Count() == testInput.IANATimeZones.Count();
             bool containsSameIanaTimeZones = dataPopulator.WindowsToIana[testInput.WindowsTimeZoneId].All(populatorOutput => testInput.IANATimeZones.Contains(populatorOutput));
